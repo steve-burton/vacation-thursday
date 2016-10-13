@@ -1,3 +1,10 @@
+body {
+  background-image: url(../img/img.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
 .bg-success {
   font-size: 30px;
   padding-left: 10px;
@@ -5,6 +12,13 @@
 h3 {
   color: skyblue;
 }
-.well:nth-child(1) {
+.col-md-4:nth-child(1) {
   background-color: teal;
+}
+
+.col-md-4:nth-child(2){
+  background-color: crimson;
+}
+.col-md-4:nth-child(3) {
+  background-color: aqua;
 }
