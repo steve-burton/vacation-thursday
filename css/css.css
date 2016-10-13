@@ -2,3 +2,9 @@
   font-size: 30px;
   padding-left: 10px;
 }
+h3 {
+  color: skyblue;
+}
+.well:nth-child(1) {
+  background-color: teal;
+}
